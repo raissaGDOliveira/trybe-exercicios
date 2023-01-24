@@ -50,4 +50,3 @@ for (index = 0; index < numbers.length; index += 1) {
     }
 }
 console.log(lowerNumber);
-
