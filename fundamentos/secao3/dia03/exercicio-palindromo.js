@@ -8,3 +8,6 @@ for (index = 0; index < word.length; index++) {
     palindromo += word[word.length - 1 - index];
 }
 console.log(palindromo);
+
+palindromo = word.split('').reverse().join('');
+console.log(palindromo);
