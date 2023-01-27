@@ -1,7 +1,10 @@
-if (true) {
-    // inicio do escopo do if
-    var userAge = '20';
-    console.log(userAge); // 20
-    // fim do escopo do if
-  }
-  console.log(userAge); // 20
+let speed = 90;
+  const speedCar = (speed) => (
+      speed >= 120 ? 'Você ultrapassou o limite de velocidade' : 'Você está na velocidade permitida'
+    //if (speed >= 120) {
+      //return `Você ultrapassou o limite de velocidade`;
+    //} else {
+      //return `Você está na velocidade permitida`;
+    //}
+  );
+  console.log(speedCar(speed));
